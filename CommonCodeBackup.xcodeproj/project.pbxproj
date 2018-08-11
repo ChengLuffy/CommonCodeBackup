@@ -78,6 +78,7 @@
 				1DA2AE49211EC65B00A28658 /* Source */,
 				1DA2AE4C211EC66500A28658 /* PickerView */,
 				1D603FD2211979F600D0F7E0 /* DatePicker */,
+				1DA2AE55211ECA5000A28658 /* CLFImageAndTitleButton */,
 				1D603FBC211979D500D0F7E0 /* AppDelegate.h */,
 				1D603FBD211979D500D0F7E0 /* AppDelegate.m */,
 				1D603FBF211979D500D0F7E0 /* ViewController.h */,
@@ -117,6 +118,13 @@
 				1DA2AE4E211EC66500A28658 /* CLFPickerController.m */,
 			);
 			path = PickerView;
+			sourceTree = "<group>";
+		};
+		1DA2AE55211ECA5000A28658 /* CLFImageAndTitleButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CLFImageAndTitleButton;
 			sourceTree = "<group>";
 		};
 		2F62AEBCD324BF051A6A8839 /* Frameworks */ = {
