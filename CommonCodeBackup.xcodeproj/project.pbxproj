@@ -14,6 +14,9 @@
 		1D603FC9211979D600D0F7E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D603FC7211979D600D0F7E0 /* LaunchScreen.storyboard */; };
 		1D603FCC211979D600D0F7E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D603FCB211979D600D0F7E0 /* main.m */; };
 		1D603FD521197A1200D0F7E0 /* CLFDatePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D603FD421197A1200D0F7E0 /* CLFDatePickerController.m */; };
+		1DA2AE4B211EC65B00A28658 /* AdressArea.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DA2AE4A211EC65B00A28658 /* AdressArea.json */; };
+		1DA2AE4F211EC66500A28658 /* CLFPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE4E211EC66500A28658 /* CLFPickerController.m */; };
+		1DA2AE53211EC73200A28658 /* CLFCommonDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE52211EC73200A28658 /* CLFCommonDatePickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,12 @@
 		1D603FCB211979D600D0F7E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D603FD321197A1200D0F7E0 /* CLFDatePickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLFDatePickerController.h; sourceTree = "<group>"; };
 		1D603FD421197A1200D0F7E0 /* CLFDatePickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLFDatePickerController.m; sourceTree = "<group>"; };
+		1DA2AE4A211EC65B00A28658 /* AdressArea.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AdressArea.json; sourceTree = "<group>"; };
+		1DA2AE4D211EC66500A28658 /* CLFPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLFPickerController.h; sourceTree = "<group>"; };
+		1DA2AE4E211EC66500A28658 /* CLFPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLFPickerController.m; sourceTree = "<group>"; };
+		1DA2AE50211EC6BA00A28658 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1DA2AE51211EC73200A28658 /* CLFCommonDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLFCommonDatePickerViewController.h; path = CommonCodeBackup/PickerView/CLFCommonDatePickerViewController.h; sourceTree = SOURCE_ROOT; };
+		1DA2AE52211EC73200A28658 /* CLFCommonDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLFCommonDatePickerViewController.m; path = CommonCodeBackup/PickerView/CLFCommonDatePickerViewController.m; sourceTree = SOURCE_ROOT; };
 		249E73201D64E558942EAE49 /* Pods-CommonCodeBackup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonCodeBackup.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonCodeBackup/Pods-CommonCodeBackup.release.xcconfig"; sourceTree = "<group>"; };
 		472077AB121DBE3AA1CF130A /* Pods-CommonCodeBackup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonCodeBackup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommonCodeBackup/Pods-CommonCodeBackup.debug.xcconfig"; sourceTree = "<group>"; };
 		EEB5121F73CC0C8402DD18BD /* libPods-CommonCodeBackup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonCodeBackup.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +75,8 @@
 		1D603FBB211979D500D0F7E0 /* CommonCodeBackup */ = {
 			isa = PBXGroup;
 			children = (
+				1DA2AE49211EC65B00A28658 /* Source */,
+				1DA2AE4C211EC66500A28658 /* PickerView */,
 				1D603FD2211979F600D0F7E0 /* DatePicker */,
 				1D603FBC211979D500D0F7E0 /* AppDelegate.h */,
 				1D603FBD211979D500D0F7E0 /* AppDelegate.m */,
@@ -75,6 +86,7 @@
 				1D603FC7211979D600D0F7E0 /* LaunchScreen.storyboard */,
 				1D603FCA211979D600D0F7E0 /* Info.plist */,
 				1D603FCB211979D600D0F7E0 /* main.m */,
+				1DA2AE50211EC6BA00A28658 /* PrefixHeader.pch */,
 			);
 			path = CommonCodeBackup;
 			sourceTree = "<group>";
@@ -84,8 +96,27 @@
 			children = (
 				1D603FD321197A1200D0F7E0 /* CLFDatePickerController.h */,
 				1D603FD421197A1200D0F7E0 /* CLFDatePickerController.m */,
+				1DA2AE51211EC73200A28658 /* CLFCommonDatePickerViewController.h */,
+				1DA2AE52211EC73200A28658 /* CLFCommonDatePickerViewController.m */,
 			);
 			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		1DA2AE49211EC65B00A28658 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1DA2AE4A211EC65B00A28658 /* AdressArea.json */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1DA2AE4C211EC66500A28658 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				1DA2AE4D211EC66500A28658 /* CLFPickerController.h */,
+				1DA2AE4E211EC66500A28658 /* CLFPickerController.m */,
+			);
+			path = PickerView;
 			sourceTree = "<group>";
 		};
 		2F62AEBCD324BF051A6A8839 /* Frameworks */ = {
@@ -165,6 +196,7 @@
 			files = (
 				1D603FC9211979D600D0F7E0 /* LaunchScreen.storyboard in Resources */,
 				1D603FC6211979D600D0F7E0 /* Assets.xcassets in Resources */,
+				1DA2AE4B211EC65B00A28658 /* AdressArea.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,9 +229,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D603FC1211979D500D0F7E0 /* ViewController.m in Sources */,
+				1DA2AE4F211EC66500A28658 /* CLFPickerController.m in Sources */,
 				1D603FD521197A1200D0F7E0 /* CLFDatePickerController.m in Sources */,
 				1D603FCC211979D600D0F7E0 /* main.m in Sources */,
 				1D603FBE211979D500D0F7E0 /* AppDelegate.m in Sources */,
+				1DA2AE53211EC73200A28658 /* CLFCommonDatePickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +368,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5WAW7Z979;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CommonCodeBackup/PrefixHeader.pch";
 				INFOPLIST_FILE = CommonCodeBackup/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -353,6 +388,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5WAW7Z979;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CommonCodeBackup/PrefixHeader.pch";
 				INFOPLIST_FILE = CommonCodeBackup/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

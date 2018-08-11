@@ -8,11 +8,14 @@
 
 #import "ViewController.h"
 #import "CLFDatePickerController.h"
+#import "CLFPickerController.h"
+#import "CLFCommonDatePickerViewController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSArray *cellTitles;
+@property (nonatomic, strong) NSArray *addrArray;
 
 @end
 
@@ -65,6 +68,24 @@
         }];
         [self presentViewController:datePicker animated:true completion:^{
         }];
+    } else if ([self.cellTitles[indexPath.row] isEqualToString:@"Picker"]) {
+        CLFPickerController *picker = [[CLFPickerController alloc] initWithDataSource:self.addrArray SelectedBlock:^(NSArray *results) {
+            NSLog(@"%@", results);
+        }];
+        [self presentViewController:picker animated:true completion:^{
+        }];
+    } else if ([self.cellTitles[indexPath.row] isEqualToString:@"Date Picker 1"]) {
+        CLFCommonDatePickerViewController *picker = [[CLFCommonDatePickerViewController alloc] init];
+        self.navigationController.definesPresentationContext = YES;
+        picker.view.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0];
+        picker.modalPresentationStyle = UIModalPresentationOverCurrentContext;
+        picker.pickedDateBlock = ^(NSDate *date) {
+            NSLog(@"%@", date);
+        };
+        picker.tapBackgroundViewToDismiss = true;
+        [self.navigationController presentViewController:picker animated:true completion:^{
+            
+        }];
     }
 }
 
@@ -80,9 +101,18 @@
 
 - (NSArray *)cellTitles {
     if (_cellTitles == nil) {
-        _cellTitles = @[@"Date Picker"];
+        _cellTitles = @[@"Date Picker", @"Date Picker 1", @"Picker"];
     }
     return _cellTitles;
+}
+
+- (NSArray *)addrArray {
+    if (_addrArray == nil) {
+        NSString *jsonPath = [[NSBundle mainBundle] pathForResource:@"AdressArea" ofType:@"json"];
+        NSData *data = [NSData dataWithContentsOfFile:jsonPath];
+        _addrArray = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];;
+    }
+    return _addrArray;
 }
 
 @end
