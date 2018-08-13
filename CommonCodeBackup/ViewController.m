@@ -10,6 +10,7 @@
 #import "CLFDatePickerController.h"
 #import "CLFPickerController.h"
 #import "CLFCommonDatePickerViewController.h"
+#import "ButtonViewController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -86,6 +87,9 @@
         [self.navigationController presentViewController:picker animated:true completion:^{
             
         }];
+    } else if ([self.cellTitles[indexPath.row] isEqualToString:@"image title button"]) {
+        ButtonViewController *vc = [[ButtonViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:true];
     }
 }
 
@@ -101,7 +105,7 @@
 
 - (NSArray *)cellTitles {
     if (_cellTitles == nil) {
-        _cellTitles = @[@"Date Picker", @"Date Picker 1", @"Picker"];
+        _cellTitles = @[@"Date Picker", @"Date Picker 1", @"Picker", @"image title button"];
     }
     return _cellTitles;
 }
