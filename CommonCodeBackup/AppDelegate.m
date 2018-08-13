@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "CLFNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -24,7 +25,10 @@
     
     self.window.backgroundColor = UIColor.whiteColor;
     
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
+    ViewController *vc = [[ViewController alloc] init];
+    vc.supportedOrientationMask = UIInterfaceOrientationMaskPortrait;
+    
+    self.window.rootViewController = [[CLFNavigationController alloc] initWithRootViewController:vc];
     
     return YES;
 }

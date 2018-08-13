@@ -19,6 +19,12 @@
 		1DA2AE53211EC73200A28658 /* CLFCommonDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE52211EC73200A28658 /* CLFCommonDatePickerViewController.m */; };
 		1DA2AE58211ECB0700A28658 /* CLFImageAndTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE57211ECB0700A28658 /* CLFImageAndTitleButton.m */; };
 		1DA2AE5C211EF53100A28658 /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE5B211EF53100A28658 /* ButtonViewController.m */; };
+		1DA2AE6121212B1200A28658 /* QMUIEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE5F21212B1200A28658 /* QMUIEmptyView.m */; };
+		1DA2AE6421212F7100A28658 /* CLFCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE6321212F7100A28658 /* CLFCommonViewController.m */; };
+		1DA2AE67212131BB00A28658 /* EmptyViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE66212131BB00A28658 /* EmptyViewTestViewController.m */; };
+		1DA2AE6B2121371200A28658 /* UIViewController+RotateDeviceOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE6A2121371200A28658 /* UIViewController+RotateDeviceOrientation.m */; };
+		1DA2AE6E212137D100A28658 /* NSObject+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE6D212137D100A28658 /* NSObject+QMUI.m */; };
+		1DA2AE72212155CE00A28658 /* CLFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE71212155CE00A28658 /* CLFNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +49,19 @@
 		1DA2AE57211ECB0700A28658 /* CLFImageAndTitleButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLFImageAndTitleButton.m; sourceTree = "<group>"; };
 		1DA2AE5A211EF53100A28658 /* ButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
 		1DA2AE5B211EF53100A28658 /* ButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		1DA2AE5F21212B1200A28658 /* QMUIEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIEmptyView.m; sourceTree = "<group>"; };
+		1DA2AE6021212B1200A28658 /* QMUIEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIEmptyView.h; sourceTree = "<group>"; };
+		1DA2AE6221212F7100A28658 /* CLFCommonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLFCommonViewController.h; sourceTree = "<group>"; };
+		1DA2AE6321212F7100A28658 /* CLFCommonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLFCommonViewController.m; sourceTree = "<group>"; };
+		1DA2AE65212131BB00A28658 /* EmptyViewTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmptyViewTestViewController.h; sourceTree = "<group>"; };
+		1DA2AE66212131BB00A28658 /* EmptyViewTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmptyViewTestViewController.m; sourceTree = "<group>"; };
+		1DA2AE692121371200A28658 /* UIViewController+RotateDeviceOrientation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RotateDeviceOrientation.h"; sourceTree = "<group>"; };
+		1DA2AE6A2121371200A28658 /* UIViewController+RotateDeviceOrientation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RotateDeviceOrientation.m"; sourceTree = "<group>"; };
+		1DA2AE6C212137D100A28658 /* NSObject+QMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+QMUI.h"; sourceTree = "<group>"; };
+		1DA2AE6D212137D100A28658 /* NSObject+QMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+QMUI.m"; sourceTree = "<group>"; };
+		1DA2AE6F21213A1D00A28658 /* CLFHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLFHeader.h; sourceTree = "<group>"; };
+		1DA2AE70212155CE00A28658 /* CLFNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLFNavigationController.h; sourceTree = "<group>"; };
+		1DA2AE71212155CE00A28658 /* CLFNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLFNavigationController.m; sourceTree = "<group>"; };
 		249E73201D64E558942EAE49 /* Pods-CommonCodeBackup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonCodeBackup.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonCodeBackup/Pods-CommonCodeBackup.release.xcconfig"; sourceTree = "<group>"; };
 		472077AB121DBE3AA1CF130A /* Pods-CommonCodeBackup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonCodeBackup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommonCodeBackup/Pods-CommonCodeBackup.debug.xcconfig"; sourceTree = "<group>"; };
 		EEB5121F73CC0C8402DD18BD /* libPods-CommonCodeBackup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonCodeBackup.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +104,8 @@
 				1DA2AE4C211EC66500A28658 /* PickerView */,
 				1D603FD2211979F600D0F7E0 /* DatePicker */,
 				1DA2AE55211ECA5000A28658 /* CLFImageAndTitleButton */,
+				1DA2AE5E21212B0B00A28658 /* EmptyView */,
+				1DA2AE68212136E500A28658 /* SupportedOrientationMask */,
 				1D603FBC211979D500D0F7E0 /* AppDelegate.h */,
 				1D603FBD211979D500D0F7E0 /* AppDelegate.m */,
 				1D603FBF211979D500D0F7E0 /* ViewController.h */,
@@ -113,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				1DA2AE4A211EC65B00A28658 /* AdressArea.json */,
+				1DA2AE6F21213A1D00A28658 /* CLFHeader.h */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -135,6 +157,32 @@
 				1DA2AE5B211EF53100A28658 /* ButtonViewController.m */,
 			);
 			path = CLFImageAndTitleButton;
+			sourceTree = "<group>";
+		};
+		1DA2AE5E21212B0B00A28658 /* EmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				1DA2AE6021212B1200A28658 /* QMUIEmptyView.h */,
+				1DA2AE5F21212B1200A28658 /* QMUIEmptyView.m */,
+				1DA2AE6221212F7100A28658 /* CLFCommonViewController.h */,
+				1DA2AE6321212F7100A28658 /* CLFCommonViewController.m */,
+				1DA2AE65212131BB00A28658 /* EmptyViewTestViewController.h */,
+				1DA2AE66212131BB00A28658 /* EmptyViewTestViewController.m */,
+			);
+			path = EmptyView;
+			sourceTree = "<group>";
+		};
+		1DA2AE68212136E500A28658 /* SupportedOrientationMask */ = {
+			isa = PBXGroup;
+			children = (
+				1DA2AE6C212137D100A28658 /* NSObject+QMUI.h */,
+				1DA2AE6D212137D100A28658 /* NSObject+QMUI.m */,
+				1DA2AE692121371200A28658 /* UIViewController+RotateDeviceOrientation.h */,
+				1DA2AE6A2121371200A28658 /* UIViewController+RotateDeviceOrientation.m */,
+				1DA2AE70212155CE00A28658 /* CLFNavigationController.h */,
+				1DA2AE71212155CE00A28658 /* CLFNavigationController.m */,
+			);
+			path = SupportedOrientationMask;
 			sourceTree = "<group>";
 		};
 		2F62AEBCD324BF051A6A8839 /* Frameworks */ = {
@@ -246,9 +294,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DA2AE6B2121371200A28658 /* UIViewController+RotateDeviceOrientation.m in Sources */,
 				1D603FC1211979D500D0F7E0 /* ViewController.m in Sources */,
 				1DA2AE58211ECB0700A28658 /* CLFImageAndTitleButton.m in Sources */,
+				1DA2AE72212155CE00A28658 /* CLFNavigationController.m in Sources */,
 				1DA2AE4F211EC66500A28658 /* CLFPickerController.m in Sources */,
+				1DA2AE6421212F7100A28658 /* CLFCommonViewController.m in Sources */,
+				1DA2AE6E212137D100A28658 /* NSObject+QMUI.m in Sources */,
+				1DA2AE67212131BB00A28658 /* EmptyViewTestViewController.m in Sources */,
+				1DA2AE6121212B1200A28658 /* QMUIEmptyView.m in Sources */,
 				1D603FD521197A1200D0F7E0 /* CLFDatePickerController.m in Sources */,
 				1DA2AE5C211EF53100A28658 /* ButtonViewController.m in Sources */,
 				1D603FCC211979D600D0F7E0 /* main.m in Sources */,
@@ -389,6 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5WAW7Z979;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CommonCodeBackup/PrefixHeader.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				INFOPLIST_FILE = CommonCodeBackup/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -409,6 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5WAW7Z979;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CommonCodeBackup/PrefixHeader.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				INFOPLIST_FILE = CommonCodeBackup/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

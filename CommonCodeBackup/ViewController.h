@@ -6,9 +6,9 @@
 //  Copyright © 2018年 chengluffy. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "CLFCommonViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : CLFCommonViewController
 
 
 @end

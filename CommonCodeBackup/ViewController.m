@@ -11,6 +11,7 @@
 #import "CLFPickerController.h"
 #import "CLFCommonDatePickerViewController.h"
 #import "ButtonViewController.h"
+#import "EmptyViewTestViewController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -87,8 +88,12 @@
         [self.navigationController presentViewController:picker animated:true completion:^{
             
         }];
-    } else if ([self.cellTitles[indexPath.row] isEqualToString:@"image title button"]) {
+    } else if ([self.cellTitles[indexPath.row] isEqualToString:@"Image & Title Button"]) {
         ButtonViewController *vc = [[ButtonViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:true];
+    } else if ([self.cellTitles[indexPath.row] isEqualToString:@"EmptyView"]) {
+        EmptyViewTestViewController *vc = [[EmptyViewTestViewController alloc] init];
+        vc.supportedOrientationMask = UIInterfaceOrientationMaskLandscapeLeft;
         [self.navigationController pushViewController:vc animated:true];
     }
 }
@@ -105,7 +110,7 @@
 
 - (NSArray *)cellTitles {
     if (_cellTitles == nil) {
-        _cellTitles = @[@"Date Picker", @"Date Picker 1", @"Picker", @"image title button"];
+        _cellTitles = @[@"Date Picker", @"Date Picker 1", @"Picker", @"Image & Title Button", @"EmptyView"];
     }
     return _cellTitles;
 }

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <Masonry/Masonry.h>
+#import "UIViewController+RotateDeviceOrientation.h"
 
 /**
  日期选择器 继承自 UIAlertController 使用 UIAlertController 生成方法 title 传 @"", message 传 nil
