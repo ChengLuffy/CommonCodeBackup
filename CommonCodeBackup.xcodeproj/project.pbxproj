@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1C5C36EEAE9FEB8C8247AFD0 /* libPods-CommonCodeBackup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB5121F73CC0C8402DD18BD /* libPods-CommonCodeBackup.a */; };
+		1D060C65212677B000BE6010 /* CLFPhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D060C64212677B000BE6010 /* CLFPhotoBrowserViewController.m */; };
 		1D603FBE211979D500D0F7E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D603FBD211979D500D0F7E0 /* AppDelegate.m */; };
 		1D603FC1211979D500D0F7E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D603FC0211979D500D0F7E0 /* ViewController.m */; };
 		1D603FC6211979D600D0F7E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D603FC5211979D600D0F7E0 /* Assets.xcassets */; };
@@ -20,14 +21,22 @@
 		1DA2AE58211ECB0700A28658 /* CLFImageAndTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE57211ECB0700A28658 /* CLFImageAndTitleButton.m */; };
 		1DA2AE5C211EF53100A28658 /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE5B211EF53100A28658 /* ButtonViewController.m */; };
 		1DA2AE6121212B1200A28658 /* QMUIEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE5F21212B1200A28658 /* QMUIEmptyView.m */; };
-		1DA2AE6421212F7100A28658 /* CLFCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE6321212F7100A28658 /* CLFCommonViewController.m */; };
 		1DA2AE67212131BB00A28658 /* EmptyViewTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE66212131BB00A28658 /* EmptyViewTestViewController.m */; };
 		1DA2AE6B2121371200A28658 /* UIViewController+RotateDeviceOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE6A2121371200A28658 /* UIViewController+RotateDeviceOrientation.m */; };
 		1DA2AE6E212137D100A28658 /* NSObject+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE6D212137D100A28658 /* NSObject+QMUI.m */; };
-		1DA2AE72212155CE00A28658 /* CLFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE71212155CE00A28658 /* CLFNavigationController.m */; };
+		1DA2AE78212158A600A28658 /* CLFCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE74212158A600A28658 /* CLFCommonViewController.m */; };
+		1DA2AE79212158A600A28658 /* CLFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE77212158A600A28658 /* CLFNavigationController.m */; };
+		1DA2AE7D21215BE200A28658 /* QMUIMarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE7C21215BE200A28658 /* QMUIMarqueeLabel.m */; };
+		1DA2AE8021215CB900A28658 /* MarqueeLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE7F21215CB900A28658 /* MarqueeLabelViewController.m */; };
+		1DA2AE8721216C5800A28658 /* UITableView+QMUICellHeightKeyCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE8321216C5700A28658 /* UITableView+QMUICellHeightKeyCache.m */; };
+		1DA2AE8821216C5800A28658 /* QMUICellHeightKeyCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE8421216C5700A28658 /* QMUICellHeightKeyCache.m */; };
+		1DA2AE8C21216DD600A28658 /* CLFCellHeightKeyCachedTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE8B21216DD600A28658 /* CLFCellHeightKeyCachedTestViewController.m */; };
+		1DA2AE8F21216F0C00A28658 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE8E21216F0C00A28658 /* TestTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D060C63212677B000BE6010 /* CLFPhotoBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLFPhotoBrowserViewController.h; sourceTree = "<group>"; };
+		1D060C64212677B000BE6010 /* CLFPhotoBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLFPhotoBrowserViewController.m; sourceTree = "<group>"; };
 		1D603FB9211979D500D0F7E0 /* CommonCodeBackup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonCodeBackup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D603FBC211979D500D0F7E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D603FBD211979D500D0F7E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,8 +60,6 @@
 		1DA2AE5B211EF53100A28658 /* ButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
 		1DA2AE5F21212B1200A28658 /* QMUIEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIEmptyView.m; sourceTree = "<group>"; };
 		1DA2AE6021212B1200A28658 /* QMUIEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIEmptyView.h; sourceTree = "<group>"; };
-		1DA2AE6221212F7100A28658 /* CLFCommonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLFCommonViewController.h; sourceTree = "<group>"; };
-		1DA2AE6321212F7100A28658 /* CLFCommonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLFCommonViewController.m; sourceTree = "<group>"; };
 		1DA2AE65212131BB00A28658 /* EmptyViewTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmptyViewTestViewController.h; sourceTree = "<group>"; };
 		1DA2AE66212131BB00A28658 /* EmptyViewTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmptyViewTestViewController.m; sourceTree = "<group>"; };
 		1DA2AE692121371200A28658 /* UIViewController+RotateDeviceOrientation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RotateDeviceOrientation.h"; sourceTree = "<group>"; };
@@ -60,8 +67,23 @@
 		1DA2AE6C212137D100A28658 /* NSObject+QMUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+QMUI.h"; sourceTree = "<group>"; };
 		1DA2AE6D212137D100A28658 /* NSObject+QMUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+QMUI.m"; sourceTree = "<group>"; };
 		1DA2AE6F21213A1D00A28658 /* CLFHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLFHeader.h; sourceTree = "<group>"; };
-		1DA2AE70212155CE00A28658 /* CLFNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLFNavigationController.h; sourceTree = "<group>"; };
-		1DA2AE71212155CE00A28658 /* CLFNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLFNavigationController.m; sourceTree = "<group>"; };
+		1DA2AE74212158A600A28658 /* CLFCommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLFCommonViewController.m; sourceTree = "<group>"; };
+		1DA2AE75212158A600A28658 /* CLFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLFNavigationController.h; sourceTree = "<group>"; };
+		1DA2AE76212158A600A28658 /* CLFCommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLFCommonViewController.h; sourceTree = "<group>"; };
+		1DA2AE77212158A600A28658 /* CLFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLFNavigationController.m; sourceTree = "<group>"; };
+		1DA2AE7B21215BE200A28658 /* QMUIMarqueeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIMarqueeLabel.h; sourceTree = "<group>"; };
+		1DA2AE7C21215BE200A28658 /* QMUIMarqueeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIMarqueeLabel.m; sourceTree = "<group>"; };
+		1DA2AE7E21215CB900A28658 /* MarqueeLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarqueeLabelViewController.h; sourceTree = "<group>"; };
+		1DA2AE7F21215CB900A28658 /* MarqueeLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarqueeLabelViewController.m; sourceTree = "<group>"; };
+		1DA2AE8321216C5700A28658 /* UITableView+QMUICellHeightKeyCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+QMUICellHeightKeyCache.m"; sourceTree = "<group>"; };
+		1DA2AE8421216C5700A28658 /* QMUICellHeightKeyCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUICellHeightKeyCache.m; sourceTree = "<group>"; };
+		1DA2AE8521216C5700A28658 /* QMUICellHeightKeyCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUICellHeightKeyCache.h; sourceTree = "<group>"; };
+		1DA2AE8621216C5700A28658 /* UITableView+QMUICellHeightKeyCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+QMUICellHeightKeyCache.h"; sourceTree = "<group>"; };
+		1DA2AE8921216D0600A28658 /* QMUITableViewProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUITableViewProtocols.h; sourceTree = "<group>"; };
+		1DA2AE8A21216DD600A28658 /* CLFCellHeightKeyCachedTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLFCellHeightKeyCachedTestViewController.h; sourceTree = "<group>"; };
+		1DA2AE8B21216DD600A28658 /* CLFCellHeightKeyCachedTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLFCellHeightKeyCachedTestViewController.m; sourceTree = "<group>"; };
+		1DA2AE8D21216F0C00A28658 /* TestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		1DA2AE8E21216F0C00A28658 /* TestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
 		249E73201D64E558942EAE49 /* Pods-CommonCodeBackup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonCodeBackup.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonCodeBackup/Pods-CommonCodeBackup.release.xcconfig"; sourceTree = "<group>"; };
 		472077AB121DBE3AA1CF130A /* Pods-CommonCodeBackup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonCodeBackup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommonCodeBackup/Pods-CommonCodeBackup.debug.xcconfig"; sourceTree = "<group>"; };
 		EEB5121F73CC0C8402DD18BD /* libPods-CommonCodeBackup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonCodeBackup.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +128,10 @@
 				1DA2AE55211ECA5000A28658 /* CLFImageAndTitleButton */,
 				1DA2AE5E21212B0B00A28658 /* EmptyView */,
 				1DA2AE68212136E500A28658 /* SupportedOrientationMask */,
+				1DA2AE7A21215BD700A28658 /* MarqueeLabel */,
+				1DA2AE8121216C5700A28658 /* UITableViewCellHeightKeyCache */,
+				1DA2AE912121C5B300A28658 /* ImagePreview */,
+				1DA2AE73212158A600A28658 /* Base */,
 				1D603FBC211979D500D0F7E0 /* AppDelegate.h */,
 				1D603FBD211979D500D0F7E0 /* AppDelegate.m */,
 				1D603FBF211979D500D0F7E0 /* ViewController.h */,
@@ -164,8 +190,6 @@
 			children = (
 				1DA2AE6021212B1200A28658 /* QMUIEmptyView.h */,
 				1DA2AE5F21212B1200A28658 /* QMUIEmptyView.m */,
-				1DA2AE6221212F7100A28658 /* CLFCommonViewController.h */,
-				1DA2AE6321212F7100A28658 /* CLFCommonViewController.m */,
 				1DA2AE65212131BB00A28658 /* EmptyViewTestViewController.h */,
 				1DA2AE66212131BB00A28658 /* EmptyViewTestViewController.m */,
 			);
@@ -179,10 +203,63 @@
 				1DA2AE6D212137D100A28658 /* NSObject+QMUI.m */,
 				1DA2AE692121371200A28658 /* UIViewController+RotateDeviceOrientation.h */,
 				1DA2AE6A2121371200A28658 /* UIViewController+RotateDeviceOrientation.m */,
-				1DA2AE70212155CE00A28658 /* CLFNavigationController.h */,
-				1DA2AE71212155CE00A28658 /* CLFNavigationController.m */,
 			);
 			path = SupportedOrientationMask;
+			sourceTree = "<group>";
+		};
+		1DA2AE73212158A600A28658 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1DA2AE75212158A600A28658 /* CLFNavigationController.h */,
+				1DA2AE77212158A600A28658 /* CLFNavigationController.m */,
+				1DA2AE76212158A600A28658 /* CLFCommonViewController.h */,
+				1DA2AE74212158A600A28658 /* CLFCommonViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		1DA2AE7A21215BD700A28658 /* MarqueeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				1DA2AE7B21215BE200A28658 /* QMUIMarqueeLabel.h */,
+				1DA2AE7C21215BE200A28658 /* QMUIMarqueeLabel.m */,
+				1DA2AE7E21215CB900A28658 /* MarqueeLabelViewController.h */,
+				1DA2AE7F21215CB900A28658 /* MarqueeLabelViewController.m */,
+			);
+			path = MarqueeLabel;
+			sourceTree = "<group>";
+		};
+		1DA2AE8121216C5700A28658 /* UITableViewCellHeightKeyCache */ = {
+			isa = PBXGroup;
+			children = (
+				1DA2AE8221216C5700A28658 /* QMUICellHeightKeyCache */,
+				1DA2AE8A21216DD600A28658 /* CLFCellHeightKeyCachedTestViewController.h */,
+				1DA2AE8B21216DD600A28658 /* CLFCellHeightKeyCachedTestViewController.m */,
+				1DA2AE8D21216F0C00A28658 /* TestTableViewCell.h */,
+				1DA2AE8E21216F0C00A28658 /* TestTableViewCell.m */,
+			);
+			path = UITableViewCellHeightKeyCache;
+			sourceTree = "<group>";
+		};
+		1DA2AE8221216C5700A28658 /* QMUICellHeightKeyCache */ = {
+			isa = PBXGroup;
+			children = (
+				1DA2AE8921216D0600A28658 /* QMUITableViewProtocols.h */,
+				1DA2AE8521216C5700A28658 /* QMUICellHeightKeyCache.h */,
+				1DA2AE8421216C5700A28658 /* QMUICellHeightKeyCache.m */,
+				1DA2AE8621216C5700A28658 /* UITableView+QMUICellHeightKeyCache.h */,
+				1DA2AE8321216C5700A28658 /* UITableView+QMUICellHeightKeyCache.m */,
+			);
+			path = QMUICellHeightKeyCache;
+			sourceTree = "<group>";
+		};
+		1DA2AE912121C5B300A28658 /* ImagePreview */ = {
+			isa = PBXGroup;
+			children = (
+				1D060C63212677B000BE6010 /* CLFPhotoBrowserViewController.h */,
+				1D060C64212677B000BE6010 /* CLFPhotoBrowserViewController.m */,
+			);
+			path = ImagePreview;
 			sourceTree = "<group>";
 		};
 		2F62AEBCD324BF051A6A8839 /* Frameworks */ = {
@@ -213,6 +290,7 @@
 				1D603FB5211979D500D0F7E0 /* Sources */,
 				1D603FB6211979D500D0F7E0 /* Frameworks */,
 				1D603FB7211979D500D0F7E0 /* Resources */,
+				619A315888049E8CCF2F30AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,6 +347,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		619A315888049E8CCF2F30AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CommonCodeBackup/Pods-CommonCodeBackup-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CommonCodeBackup/Pods-CommonCodeBackup-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		82F2F1D635C6860C5183FA05 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -295,17 +391,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DA2AE6B2121371200A28658 /* UIViewController+RotateDeviceOrientation.m in Sources */,
+				1DA2AE8F21216F0C00A28658 /* TestTableViewCell.m in Sources */,
+				1DA2AE8C21216DD600A28658 /* CLFCellHeightKeyCachedTestViewController.m in Sources */,
+				1DA2AE7D21215BE200A28658 /* QMUIMarqueeLabel.m in Sources */,
 				1D603FC1211979D500D0F7E0 /* ViewController.m in Sources */,
+				1D060C65212677B000BE6010 /* CLFPhotoBrowserViewController.m in Sources */,
 				1DA2AE58211ECB0700A28658 /* CLFImageAndTitleButton.m in Sources */,
-				1DA2AE72212155CE00A28658 /* CLFNavigationController.m in Sources */,
+				1DA2AE78212158A600A28658 /* CLFCommonViewController.m in Sources */,
 				1DA2AE4F211EC66500A28658 /* CLFPickerController.m in Sources */,
-				1DA2AE6421212F7100A28658 /* CLFCommonViewController.m in Sources */,
+				1DA2AE8721216C5800A28658 /* UITableView+QMUICellHeightKeyCache.m in Sources */,
+				1DA2AE8021215CB900A28658 /* MarqueeLabelViewController.m in Sources */,
 				1DA2AE6E212137D100A28658 /* NSObject+QMUI.m in Sources */,
 				1DA2AE67212131BB00A28658 /* EmptyViewTestViewController.m in Sources */,
 				1DA2AE6121212B1200A28658 /* QMUIEmptyView.m in Sources */,
+				1DA2AE8821216C5800A28658 /* QMUICellHeightKeyCache.m in Sources */,
 				1D603FD521197A1200D0F7E0 /* CLFDatePickerController.m in Sources */,
 				1DA2AE5C211EF53100A28658 /* ButtonViewController.m in Sources */,
 				1D603FCC211979D600D0F7E0 /* main.m in Sources */,
+				1DA2AE79212158A600A28658 /* CLFNavigationController.m in Sources */,
 				1D603FBE211979D500D0F7E0 /* AppDelegate.m in Sources */,
 				1DA2AE53211EC73200A28658 /* CLFCommonDatePickerViewController.m in Sources */,
 			);

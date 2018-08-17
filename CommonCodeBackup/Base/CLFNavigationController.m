@@ -35,6 +35,7 @@
 }
 */
 
+// 防止弹出层脱离屏幕方向控制
 - (BOOL)shouldAutorotate {
     return [self.topViewController qmui_hasOverrideUIKitMethod:_cmd] ? [self.topViewController shouldAutorotate] : YES;
 }

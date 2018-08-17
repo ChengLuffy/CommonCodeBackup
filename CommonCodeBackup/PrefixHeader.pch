@@ -136,8 +136,24 @@ CGRectGetMinXHorizontallyCenterInParentRect(CGRect parentRect, CGRect childRect)
     return flat((CGRectGetWidth(parentRect) - CGRectGetWidth(childRect)) / 2.0);
 }
 
+/// 获取rect的center，包括rect本身的x/y偏移
+CG_INLINE CGPoint
+CGPointGetCenterWithRect(CGRect rect) {
+    return CGPointMake(flat(CGRectGetMidX(rect)), flat(CGRectGetMidY(rect)));
+}
+
 // UIColor 相关的宏，用于快速创建一个 UIColor 对象，更多创建的宏可查看 UIColor+QMUI.h
 #define UIColorMake(r, g, b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
 #define UIColorMakeWithRGBA(r, g, b, a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a/1.0]
+
+// 参数可直接传入 clang 的 warning 名，warning 列表参考：https://clang.llvm.org/docs/DiagnosticsReference.html
+#define BeginIgnoreClangWarning(warningName) _Pragma("clang diagnostic push") _Pragma(ClangWarningConcat(#warningName))
+#define EndIgnoreClangWarning _Pragma("clang diagnostic pop")
+
+// 屏幕宽度，会根据横竖屏的变化而变化
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+
+// 屏幕高度，会根据横竖屏的变化而变化
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
 
 #endif /* PrefixHeader_pch */
