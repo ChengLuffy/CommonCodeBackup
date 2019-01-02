@@ -9,6 +9,7 @@
 #import "CLFCellHeightKeyCachedTestViewController.h"
 #import "TestTableViewCell.h"
 #import "UITableView+QMUICellHeightKeyCache.h"
+#import "CommonCodeBackup-Swift.h"
 
 @interface CLFCellHeightKeyCachedTestViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -22,6 +23,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self.view addSubview:self.tableView];
+    UIBarButtonItem *rightBBI = [[UIBarButtonItem alloc] initWithTitle:@"另一种方式(推荐)" style:(UIBarButtonItemStylePlain) target:self action:@selector(rightBBIAction)];
+    self.navigationItem.rightBarButtonItem = rightBBI;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,6 +49,11 @@
     // Pass the selected object to the new view controller.
 }
 */
+#pragma mark - Actions
+- (void)rightBBIAction {
+    AutoHightViewController *vc = [AutoHightViewController new];
+    [self.navigationController pushViewController:vc animated:true];
+}
 
 #pragma mark - UITableViewDelegate, UITableViewDataSource
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {

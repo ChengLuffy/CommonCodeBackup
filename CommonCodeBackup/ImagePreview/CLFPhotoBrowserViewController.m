@@ -104,10 +104,18 @@
 - (void)setImageUrl:(NSString *)imageUrl {
     _imageUrl = imageUrl;
     __weak __typeof(self)weakSelf = self;
-    [self.imageView sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@", self.imageUrl]] completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
+    [self.imageView sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@", imageUrl]] completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
         weakSelf.imageView.frame = CGRectMake(0, 0, UIScreen.mainScreen.bounds.size.width, image.size.height*(UIScreen.mainScreen.bounds.size.width/image.size.width));
         weakSelf.imageView.center = weakSelf.view.center;
     }];
+}
+
+- (void)setImage:(UIImage *)image {
+    _image = image;
+    
+    self.imageView.image = image;
+    self.imageView.frame = CGRectMake(0, 0, UIScreen.mainScreen.bounds.size.width, self.image.size.height*(UIScreen.mainScreen.bounds.size.width/self.image.size.width));
+    self.imageView.center = self.view.center;
 }
 
 #pragma mark - Actions

@@ -3,24 +3,28 @@ PODS:
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
   - SDWebImage/Core (4.4.2)
+  - SnapKit (4.2.0)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - Masonry (~> 1.1.0)
   - SDWebImage
+  - SnapKit
   - SVProgressHUD
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Masonry
     - SDWebImage
+    - SnapKit
     - SVProgressHUD
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 11e499512ba981d07f825e0b31ae8cfa2e94038c
+PODFILE CHECKSUM: b8035957562df1c7153f33e970713cc0ff4a1c81
 
 COCOAPODS: 1.5.3

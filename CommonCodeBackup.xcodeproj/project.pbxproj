@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C5C36EEAE9FEB8C8247AFD0 /* libPods-CommonCodeBackup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB5121F73CC0C8402DD18BD /* libPods-CommonCodeBackup.a */; };
 		1D060C65212677B000BE6010 /* CLFPhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D060C64212677B000BE6010 /* CLFPhotoBrowserViewController.m */; };
+		1D060C6F2126AE4500BE6010 /* CLFZoomImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D060C6E2126AE4500BE6010 /* CLFZoomImageViewCell.m */; };
+		1D060C722126BA3700BE6010 /* CLFImagePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D060C712126BA3700BE6010 /* CLFImagePreviewViewController.m */; };
 		1D603FBE211979D500D0F7E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D603FBD211979D500D0F7E0 /* AppDelegate.m */; };
 		1D603FC1211979D500D0F7E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D603FC0211979D500D0F7E0 /* ViewController.m */; };
 		1D603FC6211979D600D0F7E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D603FC5211979D600D0F7E0 /* Assets.xcassets */; };
@@ -32,11 +33,18 @@
 		1DA2AE8821216C5800A28658 /* QMUICellHeightKeyCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE8421216C5700A28658 /* QMUICellHeightKeyCache.m */; };
 		1DA2AE8C21216DD600A28658 /* CLFCellHeightKeyCachedTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE8B21216DD600A28658 /* CLFCellHeightKeyCachedTestViewController.m */; };
 		1DA2AE8F21216F0C00A28658 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA2AE8E21216F0C00A28658 /* TestTableViewCell.m */; };
+		1DC695E721DCA006005EE07C /* AutoHeightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC695E521DCA005005EE07C /* AutoHeightCell.swift */; };
+		1DC695E821DCA006005EE07C /* AutoHightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC695E621DCA006005EE07C /* AutoHightViewController.swift */; };
+		7633BB3B44A99FBDF599D43B /* Pods_CommonCodeBackup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5DDFAB1D7DB3A6BD20F225 /* Pods_CommonCodeBackup.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D060C63212677B000BE6010 /* CLFPhotoBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLFPhotoBrowserViewController.h; sourceTree = "<group>"; };
 		1D060C64212677B000BE6010 /* CLFPhotoBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLFPhotoBrowserViewController.m; sourceTree = "<group>"; };
+		1D060C6D2126AE4500BE6010 /* CLFZoomImageViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLFZoomImageViewCell.h; sourceTree = "<group>"; };
+		1D060C6E2126AE4500BE6010 /* CLFZoomImageViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLFZoomImageViewCell.m; sourceTree = "<group>"; };
+		1D060C702126BA3700BE6010 /* CLFImagePreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLFImagePreviewViewController.h; sourceTree = "<group>"; };
+		1D060C712126BA3700BE6010 /* CLFImagePreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLFImagePreviewViewController.m; sourceTree = "<group>"; };
 		1D603FB9211979D500D0F7E0 /* CommonCodeBackup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonCodeBackup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D603FBC211979D500D0F7E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D603FBD211979D500D0F7E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,9 +92,12 @@
 		1DA2AE8B21216DD600A28658 /* CLFCellHeightKeyCachedTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLFCellHeightKeyCachedTestViewController.m; sourceTree = "<group>"; };
 		1DA2AE8D21216F0C00A28658 /* TestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
 		1DA2AE8E21216F0C00A28658 /* TestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		1DC695E421DCA004005EE07C /* CommonCodeBackup-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommonCodeBackup-Bridging-Header.h"; sourceTree = "<group>"; };
+		1DC695E521DCA005005EE07C /* AutoHeightCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoHeightCell.swift; sourceTree = "<group>"; };
+		1DC695E621DCA006005EE07C /* AutoHightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoHightViewController.swift; sourceTree = "<group>"; };
 		249E73201D64E558942EAE49 /* Pods-CommonCodeBackup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonCodeBackup.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonCodeBackup/Pods-CommonCodeBackup.release.xcconfig"; sourceTree = "<group>"; };
 		472077AB121DBE3AA1CF130A /* Pods-CommonCodeBackup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonCodeBackup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommonCodeBackup/Pods-CommonCodeBackup.debug.xcconfig"; sourceTree = "<group>"; };
-		EEB5121F73CC0C8402DD18BD /* libPods-CommonCodeBackup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonCodeBackup.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B5DDFAB1D7DB3A6BD20F225 /* Pods_CommonCodeBackup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonCodeBackup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C5C36EEAE9FEB8C8247AFD0 /* libPods-CommonCodeBackup.a in Frameworks */,
+				7633BB3B44A99FBDF599D43B /* Pods_CommonCodeBackup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +248,9 @@
 				1DA2AE8B21216DD600A28658 /* CLFCellHeightKeyCachedTestViewController.m */,
 				1DA2AE8D21216F0C00A28658 /* TestTableViewCell.h */,
 				1DA2AE8E21216F0C00A28658 /* TestTableViewCell.m */,
+				1DC695E521DCA005005EE07C /* AutoHeightCell.swift */,
+				1DC695E621DCA006005EE07C /* AutoHightViewController.swift */,
+				1DC695E421DCA004005EE07C /* CommonCodeBackup-Bridging-Header.h */,
 			);
 			path = UITableViewCellHeightKeyCache;
 			sourceTree = "<group>";
@@ -258,6 +272,10 @@
 			children = (
 				1D060C63212677B000BE6010 /* CLFPhotoBrowserViewController.h */,
 				1D060C64212677B000BE6010 /* CLFPhotoBrowserViewController.m */,
+				1D060C6D2126AE4500BE6010 /* CLFZoomImageViewCell.h */,
+				1D060C6E2126AE4500BE6010 /* CLFZoomImageViewCell.m */,
+				1D060C702126BA3700BE6010 /* CLFImagePreviewViewController.h */,
+				1D060C712126BA3700BE6010 /* CLFImagePreviewViewController.m */,
 			);
 			path = ImagePreview;
 			sourceTree = "<group>";
@@ -265,7 +283,7 @@
 		2F62AEBCD324BF051A6A8839 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EEB5121F73CC0C8402DD18BD /* libPods-CommonCodeBackup.a */,
+				7B5DDFAB1D7DB3A6BD20F225 /* Pods_CommonCodeBackup.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -290,7 +308,7 @@
 				1D603FB5211979D500D0F7E0 /* Sources */,
 				1D603FB6211979D500D0F7E0 /* Frameworks */,
 				1D603FB7211979D500D0F7E0 /* Resources */,
-				619A315888049E8CCF2F30AF /* [CP] Copy Pods Resources */,
+				70489A30EE8E7437005714A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -312,6 +330,7 @@
 				TargetAttributes = {
 					1D603FB8211979D500D0F7E0 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -347,22 +366,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		619A315888049E8CCF2F30AF /* [CP] Copy Pods Resources */ = {
+		70489A30EE8E7437005714A8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CommonCodeBackup/Pods-CommonCodeBackup-resources.sh",
-				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			inputFileListPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CommonCodeBackup/Pods-CommonCodeBackup-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CommonCodeBackup/Pods-CommonCodeBackup-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CommonCodeBackup/Pods-CommonCodeBackup-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		82F2F1D635C6860C5183FA05 /* [CP] Check Pods Manifest.lock */ = {
@@ -394,15 +423,19 @@
 				1DA2AE8F21216F0C00A28658 /* TestTableViewCell.m in Sources */,
 				1DA2AE8C21216DD600A28658 /* CLFCellHeightKeyCachedTestViewController.m in Sources */,
 				1DA2AE7D21215BE200A28658 /* QMUIMarqueeLabel.m in Sources */,
+				1DC695E821DCA006005EE07C /* AutoHightViewController.swift in Sources */,
+				1D060C722126BA3700BE6010 /* CLFImagePreviewViewController.m in Sources */,
 				1D603FC1211979D500D0F7E0 /* ViewController.m in Sources */,
 				1D060C65212677B000BE6010 /* CLFPhotoBrowserViewController.m in Sources */,
 				1DA2AE58211ECB0700A28658 /* CLFImageAndTitleButton.m in Sources */,
 				1DA2AE78212158A600A28658 /* CLFCommonViewController.m in Sources */,
+				1DC695E721DCA006005EE07C /* AutoHeightCell.swift in Sources */,
 				1DA2AE4F211EC66500A28658 /* CLFPickerController.m in Sources */,
 				1DA2AE8721216C5800A28658 /* UITableView+QMUICellHeightKeyCache.m in Sources */,
 				1DA2AE8021215CB900A28658 /* MarqueeLabelViewController.m in Sources */,
 				1DA2AE6E212137D100A28658 /* NSObject+QMUI.m in Sources */,
 				1DA2AE67212131BB00A28658 /* EmptyViewTestViewController.m in Sources */,
+				1D060C6F2126AE4500BE6010 /* CLFZoomImageViewCell.m in Sources */,
 				1DA2AE6121212B1200A28658 /* QMUIEmptyView.m in Sources */,
 				1DA2AE8821216C5800A28658 /* QMUICellHeightKeyCache.m in Sources */,
 				1D603FD521197A1200D0F7E0 /* CLFDatePickerController.m in Sources */,
@@ -543,6 +576,7 @@
 			baseConfigurationReference = 472077AB121DBE3AA1CF130A /* Pods-CommonCodeBackup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5WAW7Z979;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CommonCodeBackup/PrefixHeader.pch";
@@ -555,6 +589,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chengluffy.CommonCodeBackup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CommonCodeBackup/UITableViewCellHeightKeyCache/CommonCodeBackup-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -564,6 +601,7 @@
 			baseConfigurationReference = 249E73201D64E558942EAE49 /* Pods-CommonCodeBackup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5WAW7Z979;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CommonCodeBackup/PrefixHeader.pch";
@@ -576,6 +614,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chengluffy.CommonCodeBackup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CommonCodeBackup/UITableViewCellHeightKeyCache/CommonCodeBackup-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
