@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D060C65212677B000BE6010 /* CLFPhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D060C64212677B000BE6010 /* CLFPhotoBrowserViewController.m */; };
-		1D060C6F2126AE4500BE6010 /* CLFZoomImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D060C6E2126AE4500BE6010 /* CLFZoomImageViewCell.m */; };
-		1D060C722126BA3700BE6010 /* CLFImagePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D060C712126BA3700BE6010 /* CLFImagePreviewViewController.m */; };
 		1D603FBE211979D500D0F7E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D603FBD211979D500D0F7E0 /* AppDelegate.m */; };
 		1D603FC1211979D500D0F7E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D603FC0211979D500D0F7E0 /* ViewController.m */; };
 		1D603FC6211979D600D0F7E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D603FC5211979D600D0F7E0 /* Assets.xcassets */; };
@@ -39,12 +36,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D060C63212677B000BE6010 /* CLFPhotoBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLFPhotoBrowserViewController.h; sourceTree = "<group>"; };
-		1D060C64212677B000BE6010 /* CLFPhotoBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLFPhotoBrowserViewController.m; sourceTree = "<group>"; };
-		1D060C6D2126AE4500BE6010 /* CLFZoomImageViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLFZoomImageViewCell.h; sourceTree = "<group>"; };
-		1D060C6E2126AE4500BE6010 /* CLFZoomImageViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLFZoomImageViewCell.m; sourceTree = "<group>"; };
-		1D060C702126BA3700BE6010 /* CLFImagePreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLFImagePreviewViewController.h; sourceTree = "<group>"; };
-		1D060C712126BA3700BE6010 /* CLFImagePreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLFImagePreviewViewController.m; sourceTree = "<group>"; };
 		1D603FB9211979D500D0F7E0 /* CommonCodeBackup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonCodeBackup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D603FBC211979D500D0F7E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D603FBD211979D500D0F7E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -141,7 +132,6 @@
 				1DA2AE68212136E500A28658 /* SupportedOrientationMask */,
 				1DA2AE7A21215BD700A28658 /* MarqueeLabel */,
 				1DA2AE8121216C5700A28658 /* UITableViewCellHeightKeyCache */,
-				1DA2AE912121C5B300A28658 /* ImagePreview */,
 				1DA2AE73212158A600A28658 /* Base */,
 				1D603FBC211979D500D0F7E0 /* AppDelegate.h */,
 				1D603FBD211979D500D0F7E0 /* AppDelegate.m */,
@@ -265,19 +255,6 @@
 				1DA2AE8321216C5700A28658 /* UITableView+QMUICellHeightKeyCache.m */,
 			);
 			path = QMUICellHeightKeyCache;
-			sourceTree = "<group>";
-		};
-		1DA2AE912121C5B300A28658 /* ImagePreview */ = {
-			isa = PBXGroup;
-			children = (
-				1D060C63212677B000BE6010 /* CLFPhotoBrowserViewController.h */,
-				1D060C64212677B000BE6010 /* CLFPhotoBrowserViewController.m */,
-				1D060C6D2126AE4500BE6010 /* CLFZoomImageViewCell.h */,
-				1D060C6E2126AE4500BE6010 /* CLFZoomImageViewCell.m */,
-				1D060C702126BA3700BE6010 /* CLFImagePreviewViewController.h */,
-				1D060C712126BA3700BE6010 /* CLFImagePreviewViewController.m */,
-			);
-			path = ImagePreview;
 			sourceTree = "<group>";
 		};
 		2F62AEBCD324BF051A6A8839 /* Frameworks */ = {
@@ -424,9 +401,7 @@
 				1DA2AE8C21216DD600A28658 /* CLFCellHeightKeyCachedTestViewController.m in Sources */,
 				1DA2AE7D21215BE200A28658 /* QMUIMarqueeLabel.m in Sources */,
 				1DC695E821DCA006005EE07C /* AutoHightViewController.swift in Sources */,
-				1D060C722126BA3700BE6010 /* CLFImagePreviewViewController.m in Sources */,
 				1D603FC1211979D500D0F7E0 /* ViewController.m in Sources */,
-				1D060C65212677B000BE6010 /* CLFPhotoBrowserViewController.m in Sources */,
 				1DA2AE58211ECB0700A28658 /* CLFImageAndTitleButton.m in Sources */,
 				1DA2AE78212158A600A28658 /* CLFCommonViewController.m in Sources */,
 				1DC695E721DCA006005EE07C /* AutoHeightCell.swift in Sources */,
@@ -435,7 +410,6 @@
 				1DA2AE8021215CB900A28658 /* MarqueeLabelViewController.m in Sources */,
 				1DA2AE6E212137D100A28658 /* NSObject+QMUI.m in Sources */,
 				1DA2AE67212131BB00A28658 /* EmptyViewTestViewController.m in Sources */,
-				1D060C6F2126AE4500BE6010 /* CLFZoomImageViewCell.m in Sources */,
 				1DA2AE6121212B1200A28658 /* QMUIEmptyView.m in Sources */,
 				1DA2AE8821216C5800A28658 /* QMUICellHeightKeyCache.m in Sources */,
 				1D603FD521197A1200D0F7E0 /* CLFDatePickerController.m in Sources */,

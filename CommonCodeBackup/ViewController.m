@@ -14,8 +14,6 @@
 #import "EmptyViewTestViewController.h"
 #import "MarqueeLabelViewController.h"
 #import "CLFCellHeightKeyCachedTestViewController.h"
-#import "CLFPhotoBrowserViewController.h"
-#import "CLFImagePreviewViewController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -106,16 +104,7 @@
         CLFCellHeightKeyCachedTestViewController *vc = [[CLFCellHeightKeyCachedTestViewController alloc] init];
         [self.navigationController pushViewController:vc animated:true];
     } else if ([self.cellTitles[indexPath.row] isEqualToString:@"Photo Preview"]) {
-//        CLFPhotoBrowserViewController *vc = [[CLFPhotoBrowserViewController alloc] init];
-//        vc.imageUrl = @"http://mhsoss.oss-cn-beijing.aliyuncs.com/StoreUpLoad/IMG_1534406580227.png";
-//        [self presentViewController:vc animated:true completion:^{
-//
-//        }];
-        CLFImagePreviewViewController *vc = [[CLFImagePreviewViewController alloc] init];
-        
-        [self presentViewController:vc animated:true completion:^{
-            
-        }];
+
     }
 }
 
